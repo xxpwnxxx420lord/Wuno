@@ -13,5 +13,6 @@ if success and response and response ~= "" then
         func()  -- work NOW! 
     else
         game.Players.LocalPlayer:Kick("Currently, there is no universal script available. If you encounter a bug, please visit our support channel at Discord (copied in your clipboard) for assistance with supported games. The link has been copied to your clipboard for your convenience.")
+        setclipboard("https://discord.gg/HwHHvdh5Ef")
     end
 end
