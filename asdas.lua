@@ -1,4 +1,4 @@
-if shared.ran then return end
+if shared.ran == true then return end
 
 shared.ran = true -- we love less spam
 
